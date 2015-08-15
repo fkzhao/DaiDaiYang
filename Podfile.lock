@@ -1,0 +1,99 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DZReadability (0.2.3):
+    - HTMLReader
+  - FCFileManager (1.0.12)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - HTMLReader (0.8.1)
+  - JSONModel (1.1.0)
+  - libwebp (0.4.3):
+    - libwebp/core (= 0.4.3)
+    - libwebp/dec (= 0.4.3)
+    - libwebp/demux (= 0.4.3)
+    - libwebp/dsp (= 0.4.3)
+    - libwebp/enc (= 0.4.3)
+    - libwebp/mux (= 0.4.3)
+    - libwebp/utils (= 0.4.3)
+    - libwebp/webp (= 0.4.3)
+  - libwebp/core (0.4.3):
+    - libwebp/webp
+  - libwebp/dec (0.4.3):
+    - libwebp/core
+  - libwebp/demux (0.4.3):
+    - libwebp/core
+  - libwebp/dsp (0.4.3):
+    - libwebp/core
+  - libwebp/enc (0.4.3):
+    - libwebp/core
+  - libwebp/mux (0.4.3):
+    - libwebp/core
+  - libwebp/utils (0.4.3):
+    - libwebp/core
+  - libwebp/webp (0.4.3)
+  - pop (1.0.7)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SDWebImage/WebP (3.7.3):
+    - libwebp
+    - SDWebImage/Core
+  - ZipArchive (1.4.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - DZReadability (~> 0.2.3)
+  - FCFileManager
+  - FMDB
+  - JSONModel
+  - libwebp (from `https://github.com/Anselz/libwebpd.git`)
+  - pop
+  - SDWebImage
+  - SDWebImage/WebP
+  - ZipArchive
+
+EXTERNAL SOURCES:
+  libwebp:
+    :git: https://github.com/Anselz/libwebpd.git
+
+CHECKOUT OPTIONS:
+  libwebp:
+    :commit: e3bd014f7ced80808758237d8db569fb788a4e49
+    :git: https://github.com/Anselz/libwebpd.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  DZReadability: 451e9134abd6861bc855467e01c7b05680734d4f
+  FCFileManager: 5cb3d223ff185b4f565dd917e1eb2ccb6c43a1d8
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  HTMLReader: 9de5a559dc3c72f90ff794ac00a66ab990b4d0d2
+  JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
+  libwebp: 24c23736c83811d86293c8d66efa324af477f133
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+
+COCOAPODS: 0.38.2
