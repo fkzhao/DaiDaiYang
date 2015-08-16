@@ -10,7 +10,6 @@
 		24909AA01A615D1800B6904E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24909A9F1A615D1800B6904E /* main.m */; };
 		24909AA31A615D1800B6904E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24909AA21A615D1800B6904E /* AppDelegate.m */; };
 		24909AA61A615D1800B6904E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24909AA51A615D1800B6904E /* ViewController.m */; };
-		24909AA91A615D1800B6904E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24909AA71A615D1800B6904E /* Main.storyboard */; };
 		24909AAE1A615D1800B6904E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24909AAC1A615D1800B6904E /* LaunchScreen.xib */; };
 		24909ABA1A615D1900B6904E /* DaiDaiYangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24909AB91A615D1900B6904E /* DaiDaiYangTests.m */; };
 		24909ACB1A615EE500B6904E /* TOActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 24909AC41A615EE500B6904E /* TOActivityChrome.m */; };
@@ -19,6 +18,15 @@
 		24909ACE1A615EE500B6904E /* UIImage+TOWebViewControllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 24909ACA1A615EE500B6904E /* UIImage+TOWebViewControllerIcons.m */; };
 		24909ADA1A6164AB00B6904E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24909AD91A6164AB00B6904E /* icon.png */; };
 		24909ADE1A6166F200B6904E /* default01.png in Resources */ = {isa = PBXBuildFile; fileRef = 24909ADD1A6166F200B6904E /* default01.png */; };
+		2498CBD21B7F0FF2006F30DA /* NSURLConnection+ActuallyAsynchronousConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498CBBE1B7F0FF2006F30DA /* NSURLConnection+ActuallyAsynchronousConnection.m */; };
+		2498CBD31B7F0FF2006F30DA /* RMBJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498CBC11B7F0FF2006F30DA /* RMBJSONModel.m */; };
+		2498CBD41B7F0FF2006F30DA /* RMBRequestJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498CBC31B7F0FF2006F30DA /* RMBRequestJSONModel.m */; };
+		2498CBD51B7F0FF2006F30DA /* RMBCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498CBC61B7F0FF2006F30DA /* RMBCache.m */; };
+		2498CBD61B7F0FF2006F30DA /* RMBHTTPAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498CBC81B7F0FF2006F30DA /* RMBHTTPAPIClient.m */; };
+		2498CBD71B7F0FF2006F30DA /* RMBNetworkAPICache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498CBCA1B7F0FF2006F30DA /* RMBNetworkAPICache.m */; };
+		2498CBD81B7F0FF2006F30DA /* RMBNetworkAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498CBCC1B7F0FF2006F30DA /* RMBNetworkAPIHelper.m */; };
+		2498CBD91B7F0FF2006F30DA /* BuildNumber.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2498CBCE1B7F0FF2006F30DA /* BuildNumber.sh */; };
+		D160526FB57E39C0E83DE9B9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D920A41E600B00B786616723 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2060C6E6644A47E25768451C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		24909A9A1A615D1800B6904E /* DaiDaiYang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaiDaiYang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24909A9E1A615D1800B6904E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24909A9F1A615D1800B6904E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,7 +48,6 @@
 		24909AA21A615D1800B6904E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24909AA41A615D1800B6904E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		24909AA51A615D1800B6904E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		24909AA81A615D1800B6904E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24909AAA1A615D1800B6904E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24909AAD1A615D1800B6904E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		24909AB31A615D1900B6904E /* DaiDaiYangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaiDaiYangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +63,23 @@
 		24909ACA1A615EE500B6904E /* UIImage+TOWebViewControllerIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TOWebViewControllerIcons.m"; sourceTree = "<group>"; };
 		24909AD91A6164AB00B6904E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		24909ADD1A6166F200B6904E /* default01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default01.png; sourceTree = "<group>"; };
+		2498CBBD1B7F0FF2006F30DA /* NSURLConnection+ActuallyAsynchronousConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+ActuallyAsynchronousConnection.h"; sourceTree = "<group>"; };
+		2498CBBE1B7F0FF2006F30DA /* NSURLConnection+ActuallyAsynchronousConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+ActuallyAsynchronousConnection.m"; sourceTree = "<group>"; };
+		2498CBC01B7F0FF2006F30DA /* RMBJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBJSONModel.h; sourceTree = "<group>"; };
+		2498CBC11B7F0FF2006F30DA /* RMBJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBJSONModel.m; sourceTree = "<group>"; };
+		2498CBC21B7F0FF2006F30DA /* RMBRequestJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBRequestJSONModel.h; sourceTree = "<group>"; };
+		2498CBC31B7F0FF2006F30DA /* RMBRequestJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBRequestJSONModel.m; sourceTree = "<group>"; };
+		2498CBC51B7F0FF2006F30DA /* RMBCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBCache.h; sourceTree = "<group>"; };
+		2498CBC61B7F0FF2006F30DA /* RMBCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBCache.m; sourceTree = "<group>"; };
+		2498CBC71B7F0FF2006F30DA /* RMBHTTPAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBHTTPAPIClient.h; sourceTree = "<group>"; };
+		2498CBC81B7F0FF2006F30DA /* RMBHTTPAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBHTTPAPIClient.m; sourceTree = "<group>"; };
+		2498CBC91B7F0FF2006F30DA /* RMBNetworkAPICache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBNetworkAPICache.h; sourceTree = "<group>"; };
+		2498CBCA1B7F0FF2006F30DA /* RMBNetworkAPICache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBNetworkAPICache.m; sourceTree = "<group>"; };
+		2498CBCB1B7F0FF2006F30DA /* RMBNetworkAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBNetworkAPIHelper.h; sourceTree = "<group>"; };
+		2498CBCC1B7F0FF2006F30DA /* RMBNetworkAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBNetworkAPIHelper.m; sourceTree = "<group>"; };
+		2498CBCE1B7F0FF2006F30DA /* BuildNumber.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = BuildNumber.sh; sourceTree = "<group>"; };
+		344FA03664C382EE7BAE36D0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D920A41E600B00B786616723 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D160526FB57E39C0E83DE9B9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +104,18 @@
 		24909A911A615D1800B6904E = {
 			isa = PBXGroup;
 			children = (
+				2498CBBC1B7F0FF2006F30DA /* Common */,
+				2498CBBF1B7F0FF2006F30DA /* Model */,
+				2498CBC41B7F0FF2006F30DA /* Network */,
+				2498CBCD1B7F0FF2006F30DA /* RunScript */,
+				2498CBCF1B7F0FF2006F30DA /* ThirdParty */,
+				2498CBD01B7F0FF2006F30DA /* Utility */,
+				2498CBD11B7F0FF2006F30DA /* UtilityView */,
 				24909A9C1A615D1800B6904E /* DaiDaiYang */,
 				24909AB61A615D1900B6904E /* DaiDaiYangTests */,
 				24909A9B1A615D1800B6904E /* Products */,
+				E373A18F856808897654DCB6 /* Pods */,
+				85CEF3A082FDB923052E7F78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +143,6 @@
 				24909AA21A615D1800B6904E /* AppDelegate.m */,
 				24909AA41A615D1800B6904E /* ViewController.h */,
 				24909AA51A615D1800B6904E /* ViewController.m */,
-				24909AA71A615D1800B6904E /* Main.storyboard */,
 				24909AAA1A615D1800B6904E /* Images.xcassets */,
 				24909AAC1A615D1800B6904E /* LaunchScreen.xib */,
 				24909A9D1A615D1800B6904E /* Supporting Files */,
@@ -144,6 +178,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2498CBBC1B7F0FF2006F30DA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2498CBBD1B7F0FF2006F30DA /* NSURLConnection+ActuallyAsynchronousConnection.h */,
+				2498CBBE1B7F0FF2006F30DA /* NSURLConnection+ActuallyAsynchronousConnection.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2498CBBF1B7F0FF2006F30DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2498CBC01B7F0FF2006F30DA /* RMBJSONModel.h */,
+				2498CBC11B7F0FF2006F30DA /* RMBJSONModel.m */,
+				2498CBC21B7F0FF2006F30DA /* RMBRequestJSONModel.h */,
+				2498CBC31B7F0FF2006F30DA /* RMBRequestJSONModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2498CBC41B7F0FF2006F30DA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2498CBC51B7F0FF2006F30DA /* RMBCache.h */,
+				2498CBC61B7F0FF2006F30DA /* RMBCache.m */,
+				2498CBC71B7F0FF2006F30DA /* RMBHTTPAPIClient.h */,
+				2498CBC81B7F0FF2006F30DA /* RMBHTTPAPIClient.m */,
+				2498CBC91B7F0FF2006F30DA /* RMBNetworkAPICache.h */,
+				2498CBCA1B7F0FF2006F30DA /* RMBNetworkAPICache.m */,
+				2498CBCB1B7F0FF2006F30DA /* RMBNetworkAPIHelper.h */,
+				2498CBCC1B7F0FF2006F30DA /* RMBNetworkAPIHelper.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2498CBCD1B7F0FF2006F30DA /* RunScript */ = {
+			isa = PBXGroup;
+			children = (
+				2498CBCE1B7F0FF2006F30DA /* BuildNumber.sh */,
+			);
+			path = RunScript;
+			sourceTree = "<group>";
+		};
+		2498CBCF1B7F0FF2006F30DA /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		2498CBD01B7F0FF2006F30DA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2498CBD11B7F0FF2006F30DA /* UtilityView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UtilityView;
+			sourceTree = "<group>";
+		};
+		85CEF3A082FDB923052E7F78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D920A41E600B00B786616723 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E373A18F856808897654DCB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2060C6E6644A47E25768451C /* Pods.debug.xcconfig */,
+				344FA03664C382EE7BAE36D0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24909ABD1A615D1900B6904E /* Build configuration list for PBXNativeTarget "DaiDaiYang" */;
 			buildPhases = (
+				A896FC2FC4FB28700F9D3335 /* Check Pods Manifest.lock */,
 				24909A961A615D1800B6904E /* Sources */,
 				24909A971A615D1800B6904E /* Frameworks */,
 				24909A981A615D1800B6904E /* Resources */,
+				ECFC04B382FFB52B95CF62BD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,7 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24909ADA1A6164AB00B6904E /* icon.png in Resources */,
-				24909AA91A615D1800B6904E /* Main.storyboard in Resources */,
+				2498CBD91B7F0FF2006F30DA /* BuildNumber.sh in Resources */,
 				24909ADE1A6166F200B6904E /* default01.png in Resources */,
 				24909AAE1A615D1800B6904E /* LaunchScreen.xib in Resources */,
 			);
@@ -240,6 +357,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A896FC2FC4FB28700F9D3335 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFC04B382FFB52B95CF62BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24909A961A615D1800B6904E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -248,8 +398,15 @@
 				24909ACD1A615EE500B6904E /* TOWebViewController.m in Sources */,
 				24909AA61A615D1800B6904E /* ViewController.m in Sources */,
 				24909AA31A615D1800B6904E /* AppDelegate.m in Sources */,
+				2498CBD61B7F0FF2006F30DA /* RMBHTTPAPIClient.m in Sources */,
 				24909AA01A615D1800B6904E /* main.m in Sources */,
+				2498CBD31B7F0FF2006F30DA /* RMBJSONModel.m in Sources */,
+				2498CBD71B7F0FF2006F30DA /* RMBNetworkAPICache.m in Sources */,
 				24909ACE1A615EE500B6904E /* UIImage+TOWebViewControllerIcons.m in Sources */,
+				2498CBD21B7F0FF2006F30DA /* NSURLConnection+ActuallyAsynchronousConnection.m in Sources */,
+				2498CBD81B7F0FF2006F30DA /* RMBNetworkAPIHelper.m in Sources */,
+				2498CBD41B7F0FF2006F30DA /* RMBRequestJSONModel.m in Sources */,
+				2498CBD51B7F0FF2006F30DA /* RMBCache.m in Sources */,
 				24909ACC1A615EE500B6904E /* TOActivitySafari.m in Sources */,
 				24909ACB1A615EE500B6904E /* TOActivityChrome.m in Sources */,
 			);
@@ -274,14 +431,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		24909AA71A615D1800B6904E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24909AA81A615D1800B6904E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		24909AAC1A615D1800B6904E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -371,6 +520,7 @@
 		};
 		24909ABE1A615D1900B6904E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2060C6E6644A47E25768451C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DaiDaiYang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -380,6 +530,7 @@
 		};
 		24909ABF1A615D1900B6904E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344FA03664C382EE7BAE36D0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DaiDaiYang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -440,6 +591,7 @@
 				24909ABF1A615D1900B6904E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24909AC01A615D1900B6904E /* Build configuration list for PBXNativeTarget "DaiDaiYangTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +600,7 @@
 				24909AC21A615D1900B6904E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
